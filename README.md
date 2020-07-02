@@ -61,4 +61,15 @@ This command will retrieve all replica sets.
 kubectl get replicasets
 ```
 
+To get more detailed info, view in YAML.  This will work with any of the **get** commands.
+
+```
+kubectl get services -o yaml
+```
+
+Use the **describe** command to get more verbose output.  This can be used with the same resources (services, pods, deployment, replica sets) as the **get** commmand.
+
+```
+kubectl describe services
+```
 
