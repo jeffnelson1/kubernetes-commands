@@ -1,5 +1,7 @@
 # Kubernetes Overview
 
+This repo contains an overview of basic Kubernetes commands and how to use them
+
 ## Common kubectl commands
 
 | Command
